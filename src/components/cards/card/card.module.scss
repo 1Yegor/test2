@@ -1,0 +1,56 @@
+.wrapper {
+  max-width: 450px;
+  cursor: pointer;
+
+
+  button {
+      background: none;
+      border: none;
+      padding: 0;
+      margin: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+     
+  }
+
+}
+
+.wrapper:hover {
+ border: 1px solid black ;
+}
+
+.focused{
+  border: 1px solid black;
+  background-color: #82d3fc
+
+}
+
+
+.container {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.infoWrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.infoHeaders {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.infoData {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.photo {
+  min-width: max-content;
+}

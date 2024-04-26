@@ -1,0 +1,7 @@
+.selected_row {
+ border:1px solid #013148;
+}
+
+.selected_row_viewed {
+  background-color: lightblue;
+}

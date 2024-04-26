@@ -1,0 +1,10 @@
+.invisible {
+  display: none;
+}
+
+.modalBody {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
